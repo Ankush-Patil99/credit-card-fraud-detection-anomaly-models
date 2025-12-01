@@ -1,3 +1,8 @@
+![Python](https://img.shields.io/badge/Python-3.10-blue.svg)
+![Notebook](https://img.shields.io/badge/Jupyter-Notebook-orange.svg)
+![Models](https://img.shields.io/badge/ML-Models-green.svg)
+![License](https://img.shields.io/badge/License-MIT-green.svg)
+
 # 🚀 Credit Card Fraud Detection using Anomaly Detection, Clustering & Deep Learning
 
 This repository presents an end-to-end **Credit Card Fraud Detection system** leveraging:
@@ -15,6 +20,16 @@ The goal is to simulate **realistic fraud detection scenarios** where:
 
 Dataset Source: **Kaggle — Credit Card Fraud Dataset**
 
+---
+# ✨ Project Highlights
+
+- Implemented **12+ ML models** across anomaly detection, clustering, and deep learning  
+- Built a GPU-optimized **Autoencoder** fraud detection system  
+- Generated high-quality visualizations (PCA, UMAP, t-SNE, PR Curve)  
+- Achieved strong **PR-AUC** with Isolation Forest & Autoencoder  
+- Structured the project with clean folders + saved models + reproducible metrics  
+- Used **unsupervised, semi-supervised, and supervised** learning approaches  
+- Fully documented and GitHub-ready for recruiters  
 ---
 
 # 📁 Repository Structure (Collapsible Format)
@@ -71,6 +86,25 @@ Below is the complete project structure with collapsible sections for easy navig
 </details>
 
 ---
+# 🗺️ Project Workflow Overview
+
+Data Loading
+     →
+Preprocessing
+     →
+Dimensionality Reduction
+     →
+Clustering
+     →
+Anomaly Detection
+     →
+Autoencoder
+     →
+Supervised Baseline
+     →
+Evaluation
+     →
+Saving Models & Results
 
 
 
@@ -202,5 +236,14 @@ This project demonstrates your ability to:
 - Organize ML projects professionally for GitHub  
 
 This repository represents a complete, real-world-ready implementation of anomaly-based fraud detection.
+---
+# 👨‍💻 Author
 
+**Ankush Patil**  
+Machine Learning & NLP Engineer  
+Deep Learning | Transformers | PyTorch
+
+- 📧 Email: **ankushpatil1203@gmail.com**
+- 🐙 GitHub: [github.com/Ankush-Patil99](https://github.com/Ankush-Patil99)
+- 💼 LinkedIn: [linkedin.com/in/ankush-patil-91603a233](https://www.linkedin.com/in/ankush-patil-91603a233/)
 ---
