@@ -17,31 +17,62 @@ Dataset Source: **Kaggle — Credit Card Fraud Dataset**
 
 ---
 
-# 📁 Repository Structure (Tabular Format)
+# 📁 Repository Structure (Collapsible Format)
 
-Below is the **current live structure** based on your GitHub upload:
+Below is the complete project structure with collapsible sections for easy navigation.
 
-| Folder / File | Description |
-|---------------|-------------|
-| 📂 **model/** | Contains all trained machine learning models (`.pkl` files) |
-| ├── dbscan_umap.pkl | DBSCAN clustering model on UMAP-reduced space |
-| ├── elliptic_envelope.pkl | Robust covariance anomaly model |
-| ├── isolation_forest.pkl | Isolation Forest anomaly detector |
-| ├── lof.pkl | Local Outlier Factor (novelty mode) |
-| ├── logistic_regression.pkl | Supervised baseline model |
-| ├── oneclass_svm.pkl | One-Class SVM model |
-| 📂 **notebook/** | Jupyter notebook containing full workflow |
-| ├── credit-card-fraud-ml.ipynb | End-to-end implementation |
-| 📂 **results/** | All performance outputs & visualizations |
-| 📂 results/images | Visualization outputs |
-| ├── PCA 2d visualization.png | PCA-based scatter plot |
-| ├── UMAP 2d visualization.png | UMAP projection |
-| ├── tsne 2d visualization.png | t-SNE embedding |
-| ├── precision_recall_curves.png | PR comparison curves |
-| 📂 results/metrics | Evaluation result tables |
-| ├── anomaly_detection_results.csv | Raw anomaly scores |
-| ├── final_metrics.csv | Combined model performance metrics |
-| 📄 README.md | Project documentation |
+---
+
+<details>
+<summary><strong>📦 Models (Click to Expand)</strong></summary>
+
+| File | Description |
+|------|-------------|
+| [dbscan_umap.pkl](https://github.com/Ankush-Patil99/credit-card-fraud-detection-anomaly-models/blob/main/credit-card-fraud-detection-anomaly-models/model/dbscan_umap.pkl) | DBSCAN clustering model on UMAP-reduced space |
+| [elliptic_envelope.pkl](https://github.com/Ankush-Patil99/credit-card-fraud-detection-anomaly-models/blob/main/credit-card-fraud-detection-anomaly-models/model/elliptic_envelope.pkl) | Covariance-based anomaly detector |
+| [isolation_forest.pkl](https://github.com/Ankush-Patil99/credit-card-fraud-detection-anomaly-models/blob/main/credit-card-fraud-detection-anomaly-models/model/isolation_forest.pkl) | Isolation Forest anomaly model |
+| [lof.pkl](https://github.com/Ankush-Patil99/credit-card-fraud-detection-anomaly-models/blob/main/credit-card-fraud-detection-anomaly-models/model/lof.pkl) | Local Outlier Factor model |
+| [logistic_regression.pkl](https://github.com/Ankush-Patil99/credit-card-fraud-detection-anomaly-models/blob/main/credit-card-fraud-detection-anomaly-models/model/logistic_regression.pkl) | Supervised baseline model |
+| [oneclass_svm.pkl](https://github.com/Ankush-Patil99/credit-card-fraud-detection-anomaly-models/blob/main/credit-card-fraud-detection-anomaly-models/model/oneclass_svm.pkl) | One-Class SVM anomaly model |
+
+</details>
+
+
+
+<details>
+<summary><strong>📒 Notebook (Click to Expand)</strong></summary>
+
+| File | Description |
+|------|-------------|
+| [credit-card-fraud-ml.ipynb](https://github.com/Ankush-Patil99/credit-card-fraud-detection-anomaly-models/blob/main/credit-card-fraud-detection-anomaly-models/notebook/credit-card-fraud-ml.ipynb) | Full end-to-end project notebook including preprocessing, DR, clustering, anomaly detection & autoencoder |
+
+</details>
+
+
+<details>
+<summary><strong>📊 Results (Click to Expand)</strong></summary>
+
+### 📁 Images
+| Visualization | File |
+|---------------|-------|
+| **PCA 2D Plot** | [PCA 2D visualization](https://github.com/Ankush-Patil99/credit-card-fraud-detection-anomaly-models/blob/main/credit-card-fraud-detection-anomaly-models/results/images/PCA%202d%20visualization.png) |
+| **UMAP 2D Plot** | [UMAP 2D visualization](https://github.com/Ankush-Patil99/credit-card-fraud-detection-anomaly-models/blob/main/credit-card-fraud-detection-anomaly-models/results/images/UMAP%202d%20visualization.png) |
+| **Precision-Recall Curve** | [precision_recall_curves.png](https://github.com/Ankush-Patil99/credit-card-fraud-detection-anomaly-models/blob/main/credit-card-fraud-detection-anomaly-models/results/images/precision_recall_curves.png) |
+| **t-SNE 2D Plot** | [tsne 2d visualization](https://github.com/Ankush-Patil99/credit-card-fraud-detection-anomaly-models/blob/main/credit-card-fraud-detection-anomaly-models/results/images/tsne%202d%20visualization.png) |
+
+
+
+### 📁 Metrics
+| File | Description |
+|------|-------------|
+| [anomaly_detection_results.csv](https://github.com/Ankush-Patil99/credit-card-fraud-detection-anomaly-models/blob/main/credit-card-fraud-detection-anomaly-models/results/metrics/anomaly_detection_results.csv) | Raw anomaly scores for each model |
+| [final_metrics.csv](https://github.com/Ankush-Patil99/credit-card-fraud-detection-anomaly-models/blob/main/credit-card-fraud-detection-anomaly-models/results/metrics/final_metrics.csv) | Combined PR-AUC & ROC-AUC metrics |
+
+</details>
+
+---
+
+
 
 ---
 
@@ -100,17 +131,35 @@ All performance metrics are stored in:
 
 # 📉 Visualizations Included
 
-Stored in `results/images/`:
+<details>
+<summary><strong>🎨 Click to Expand Visualizations</strong></summary>
+<br>
 
-- 🎨 PCA 2D  
-- 🎨 UMAP 2D  
-- 🎨 t-SNE 2D  
-- 📈 Precision–Recall curves  
+All visual outputs are stored in:  
+📁 `results/images/`
 
-These visualizations help explain:
-- Data structure  
-- Fraud distribution  
-- Model discrimination capability  
+| Visualization | Description | Link |
+|--------------|-------------|------|
+| **PCA 2D Projection** | Linear dimensionality reduction showing coarse class separation | [View PCA Plot](https://github.com/Ankush-Patil99/credit-card-fraud-detection-anomaly-models/blob/main/credit-card-fraud-detection-anomaly-models/results/images/PCA%202d%20visualization.png) |
+| **UMAP 2D Projection** | Non-linear reduction capturing global + local structure (best separation) | [View UMAP Plot](https://github.com/Ankush-Patil99/credit-card-fraud-detection-anomaly-models/blob/main/credit-card-fraud-detection-anomaly-models/results/images/UMAP%202d%20visualization.png) |
+| **t-SNE 2D Projection** | High-detail embedding useful for cluster inspection | [View t-SNE Plot](https://github.com/Ankush-Patil99/credit-card-fraud-detection-anomaly-models/blob/main/credit-card-fraud-detection-anomaly-models/results/images/tsne%202d%20visualization.png) |
+| **Precision–Recall Curve** | Compares anomaly detectors on imbalanced fraud detection | [View PR Curve](https://github.com/Ankush-Patil99/credit-card-fraud-detection-anomaly-models/blob/main/credit-card-fraud-detection-anomaly-models/results/images/precision_recall_curves.png) |
+
+### 🧠 Why These Visualizations Matter
+
+- **PCA** → Provides quick linear separation insight  
+- **UMAP** → Reveals true fraud clusters (best manifold learning method here)  
+- **t-SNE** → Shows local anomaly behavior on sampled data  
+- **PR Curve** → Demonstrates model performance on highly imbalanced fraud detection  
+
+Together, these visualizations give a **holistic understanding** of:
+- Data geometry  
+- Fraud patterns  
+- Model discrimination power  
+- Where unsupervised methods excel or fail  
+
+</details>
+
 
 ---
 
