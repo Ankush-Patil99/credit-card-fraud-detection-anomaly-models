@@ -239,7 +239,8 @@ This repository represents a complete, real-world-ready implementation of anomal
 ---
 ## 👤 Author
 **Ankush Patil**  
-Machine Learning & NLP Engineer  
+Machine Learning & NLP Engineer 
+
 📧 **Email**: ankpatil1203@gmail.com  
 💼 **LinkedIn**: www.linkedin.com/in/ankush-patil-48989739a  
 🌐 **GitHub**: https://github.com/Ankush-Patil99  
