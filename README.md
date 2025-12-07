@@ -237,13 +237,10 @@ This project demonstrates your ability to:
 
 This repository represents a complete, real-world-ready implementation of anomaly-based fraud detection.
 ---
-# 👨‍💻 Author
-
+## 👤 Author
 **Ankush Patil**  
 Machine Learning & NLP Engineer  
-Deep Learning | Transformers | PyTorch
-
-- 📧 Email: **ankushpatil1203@gmail.com**
-- 🐙 GitHub: [github.com/Ankush-Patil99](https://github.com/Ankush-Patil99)
-- 💼 LinkedIn: [linkedin.com/in/ankush-patil-91603a233](https://www.linkedin.com/in/ankush-patil-91603a233/)
+📧 **Email**: ankpatil1203@gmail.com  
+💼 **LinkedIn**: www.linkedin.com/in/ankush-patil-48989739a  
+🌐 **GitHub**: https://github.com/Ankush-Patil99  
 ---
